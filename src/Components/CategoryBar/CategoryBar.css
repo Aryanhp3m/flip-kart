@@ -1,0 +1,31 @@
+.category-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    overflow-x: auto;              /* so it scrolls on small screens */
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;        /* image on top, text below */
+    align-items: center;
+    gap: 6px;
+    min-width: 90px;               /* so items don’t shrink too much */
+    cursor: pointer;
+  }
+  
+  .category-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  
+  .category-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+    text-align: center;
+  }

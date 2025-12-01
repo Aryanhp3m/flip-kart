@@ -1,0 +1,14 @@
+.category-title {
+    margin: 20px 0 10px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .category-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /* 4 cards per row */
+    gap: 16px;
+    padding: 20px;
+  }
